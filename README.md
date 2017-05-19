@@ -42,6 +42,3 @@ Run Undertow server:
 Then open [http://localhost:8080/](http://localhost:8080/) to do GET/POST requests on the server.
 
 In the example one can also find some jUnit tests.
-
-
-    
