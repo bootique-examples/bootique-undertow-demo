@@ -1,20 +1,9 @@
 package io.bootique.undertow.demo;
 
-import io.bootique.undertow.handlers.Controller;
 import io.undertow.server.HttpServerExchange;
-import io.undertow.server.RoutingHandler;
 import io.undertow.util.Headers;
 
-public class EchoRestController implements Controller {
-
-    @Override
-    public void defineRoutes(RoutingHandler routingHandler) {
-        routingHandler
-                .get("/", this::get)
-                .get("/exception", this::getException)
-                .post("/{name}", this::post);
-    }
-
+public class EchoHandler {
     public void get(HttpServerExchange exchange) {
         exchange.getResponseHeaders().put(Headers.CONTENT_TYPE, "text/plain");
         exchange.getResponseSender().send("Hello World!");

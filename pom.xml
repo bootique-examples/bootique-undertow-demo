@@ -30,7 +30,7 @@
             <dependency>
                 <groupId>io.bootique.bom</groupId>
                 <artifactId>bootique-bom</artifactId>
-                <version>0.22</version>
+                <version>0.25</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
@@ -55,9 +55,8 @@
 
         <!-- Unit test dependencies -->
         <dependency>
-            <groupId>io.bootique.undertow</groupId>
-            <artifactId>bootique-undertow-test</artifactId>
-            <version>0.3</version>
+            <groupId>io.bootique</groupId>
+            <artifactId>bootique-test</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>

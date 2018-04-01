@@ -37,8 +37,8 @@ Now you can check the options available in your app:
     
 Run Undertow server:
 
-    java -jar target/bootique.undertow.demo-1.0-SNAPSHOT.jar --server
+    java -jar target/bootique.undertow.demo-1.0-SNAPSHOT.jar
     
-Then open [http://localhost:8080/](http://localhost:8080/) to do GET/POST requests on the server.
+Then open [http://localhost:8080/api/](http://localhost:8080/api/) to do GET/POST requests on the server.
 
 In the example one can also find some jUnit tests.
