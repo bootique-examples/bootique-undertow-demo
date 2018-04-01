@@ -11,7 +11,7 @@
     </parent>
 
     <groupId>io.bootique.undertow.demo</groupId>
-    <artifactId>bootique.undertow.demo</artifactId>
+    <artifactId>bootique-undertow-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
