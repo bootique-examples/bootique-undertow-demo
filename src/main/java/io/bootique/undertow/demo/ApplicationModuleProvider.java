@@ -1,7 +1,7 @@
 package io.bootique.undertow.demo;
 
-import com.google.inject.Module;
 import io.bootique.BQModuleProvider;
+import io.bootique.di.BQModule;
 import io.bootique.undertow.UndertowModule;
 import io.bootique.undertow.UndertowModuleProvider;
 
@@ -16,12 +16,12 @@ import static java.util.Collections.singletonList;
  */
 public class ApplicationModuleProvider implements BQModuleProvider {
     @Override
-    public Module module() {
+    public BQModule module() {
         return new ApplicationModule();
     }
 
     @Override
-    public Collection<Class<? extends Module>> overrides() {
+    public Collection<Class<? extends BQModule>> overrides() {
         return singletonList(UndertowModule.class);
     }
 
