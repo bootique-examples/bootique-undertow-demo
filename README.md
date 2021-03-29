@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/bootique-examples/bootique-undertow-demo.svg)](https://travis-ci.org/bootique-examples/bootique-undertow-demo)
+[![verify](https://github.com/bootique-examples/bootique-undertow-demo/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-undertow-demo/actions/workflows/verify.yml)
 # bootique-undertow-demo
 
 A simple example that explains how to start [Undertow](https://undertow.io) server integrated for [Bootique](https://bootique.io). 
