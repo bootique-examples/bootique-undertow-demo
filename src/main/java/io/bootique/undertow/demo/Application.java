@@ -10,7 +10,7 @@ public class Application {
         Bootique
             .app(args)
             .args("--server", "--config=classpath:static.yml")
-            .module(new ApplicationModuleProvider())
+            .moduleProvider(new ApplicationModuleProvider())
             .exec()
             .exit();
     }
