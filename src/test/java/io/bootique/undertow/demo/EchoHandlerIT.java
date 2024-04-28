@@ -18,7 +18,7 @@ public class EchoHandlerIT {
     public void testRuntime() {
         testFactory
             .app("--server", "--config=classpath:static.yml")
-            .moduleProvider(new ApplicationModuleProvider())
+            .module(App.class)
             .run();
     }
 

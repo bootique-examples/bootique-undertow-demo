@@ -30,7 +30,7 @@ Here is how to build it:
 
 Now you can check the options available in your app:
 
-    java -jar target/bootique-undertow-demo-1.0-SNAPSHOT.jar
+    java -jar target/bootique-undertow-demo-2.0.jar
     
     Option                                              Description
     ------                                              -----------    
@@ -44,7 +44,7 @@ Now you can check the options available in your app:
     
 Run Undertow server:
 
-    java -jar target/bootique.undertow.demo-1.0-SNAPSHOT.jar
+    java -jar target/bootique.undertow.demo-2.0.jar
     
 Then open [http://localhost:8080/api/](http://localhost:8080/api/) to do GET/POST requests on the server.
 
