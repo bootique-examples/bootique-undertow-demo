@@ -1,14 +1,18 @@
 [![verify](https://github.com/bootique-examples/bootique-undertow-demo/actions/workflows/verify.yml/badge.svg)](https://github.com/bootique-examples/bootique-undertow-demo/actions/workflows/verify.yml)
 # bootique-undertow-demo
 
+**WARNING: the last release of Bootique that supports "bootique-undertow" is 3.0. It is currently deprecated, and will be removed from Bootique 4.0. We recommend our users to switch to Jetty, or to fork "bootique-undertow" and support it on their own.**
+
 A simple example that explains how to start [Undertow](https://undertow.io) server integrated for [Bootique](https://bootique.io). 
 
 *For additional help/questions about this example send a message to
 [Bootique forum](https://groups.google.com/forum/#!forum/bootique-user).*
 
 You can find different versions of framework in use at
-* [1.x](https://github.com/bootique-examples/bootique-undertow-demo/tree/1.x)
+
 * [2.x](https://github.com/bootique-examples/bootique-undertow-demo/tree/2.x)
+* [1.x](https://github.com/bootique-examples/bootique-undertow-demo/tree/1.x)
+
 ## Prerequisites
 
 * Java 1.8 or newer.
