@@ -1,13 +1,14 @@
 package io.bootique.undertow.demo;
 
-import com.google.inject.Inject;
-import com.google.inject.Provider;
 import io.undertow.server.HttpHandler;
 import io.undertow.server.RoutingHandler;
 import io.undertow.server.handlers.PathHandler;
 import io.undertow.server.handlers.resource.ClassPathResourceManager;
 import io.undertow.server.handlers.resource.ResourceHandler;
 import io.undertow.server.handlers.resource.ResourceManager;
+
+import javax.inject.Inject;
+import javax.inject.Provider;
 
 /**
  * Creates root handler as combination of another handlers and handler wrappers.
